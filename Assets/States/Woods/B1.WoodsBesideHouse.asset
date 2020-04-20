@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d50ab1d88e867d43b71acb4b982cca6, type: 3}
+  m_Name: B1.WoodsBesideHouse
+  m_EditorClassIdentifier: 
+  storyText: "Your are in the woods, no one is here. Do you want to:\r\n1. Go straight
+    ahead\r\n2. Go  left\r\n3. Go right"
+  nextStates:
+  - {fileID: 11400000, guid: 1fd1dfbeb62175f49a800e1fdfb125bb, type: 2}
+  - {fileID: 11400000, guid: 1fd1dfbeb62175f49a800e1fdfb125bb, type: 2}
+  - {fileID: 11400000, guid: 1fd1dfbeb62175f49a800e1fdfb125bb, type: 2}

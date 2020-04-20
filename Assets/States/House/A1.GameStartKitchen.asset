@@ -10,7 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6d50ab1d88e867d43b71acb4b982cca6, type: 3}
-  m_Name: StartingState
+  m_Name: A1.GameStartKitchen
   m_EditorClassIdentifier: 
-  storyText: "You are a dog, and you wake up in the kitchen, do you: \n            Look
-    in your bowl,\n            Look for your owner"
+  storyText: "You are in the kitchen, no one is here\ndo you: \n\n         1.   Go
+    out the doggie door\n         2.   Go in the living room"
+  nextStates:
+  - {fileID: 11400000, guid: ad648598327e19f4abb0ae09586fd80a, type: 2}
+  - {fileID: 11400000, guid: 38b352578374e4741b310df9b2b74b7e, type: 2}
